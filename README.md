@@ -1,28 +1,25 @@
 # Economic Analysis for 2023-2024
 
 ## Overview
-This repository contains a Jupyter Notebook dedicated to analyzing key economic indicators for 2023-2024, using data from the Federal Reserve Economic Data (FRED) service. The notebook is structured with code written in Python and explanations in Markdown, facilitating an interactive and educational exploration of economic trends.
+This repository hosts a Jupyter Notebook designed to provide a thorough analysis of key economic indicators from 2023 to 2024. Using the Federal Reserve Economic Data (FRED) service, the notebook investigates critical economic metrics such as the Consumer Price Index and unemployment rates across all 50 states. The analysis not only highlights inflation trends and economic conditions but also allows for interactive exploration of the data. Users can delve into specific state data, observe long-term trends, and compare different economic indicators, all facilitated through the use of advanced data visualization techniques with Plotly Express.
 
 ## Data Visualizations
-The Jupyter Notebook, `Economic-Analysis.ipynb`, includes several visualizations:
+The Jupyter Notebook, `Economic-Analysis.ipynb`, includes several interactive visualizations created with Plotly Express:
 
-### S&P 500 Index
-- **Graph Description**: This plot displays the S&P 500 index trends over 2023 and 2024, providing insights into the stock market's performance during this period. The data is fetched directly from FRED using the API and plotted using matplotlib for a clear visual representation.
+### Consumer Price Index (2023-2024)
+- **Graph Description**: Visualization of the Consumer Price Index from 2023 to 2024, highlighting changes in consumer prices which reflect inflation trends.
 
-### Unemployment Rates by State
-- **Graph Description**: This visualization shows the unemployment rates across different states, highlighting regional economic conditions. The data is segmented by state, allowing for a detailed comparison of employment health across the country.
+### State-wise Unemployment Rates (2023-2024)
+- **Graph Description**: There are two interactive plots visualizing the unemployment rates across all 50 states from 1980 to 2024. Users can interact with the plots to compare state-by-state data or focus on specific states. These visualizations emphasize trends and fluctuations in employment rates, highlighting the economic impact over recent years.
 
-### GDP and Inflation Rate Comparison
-- **Graph Description**: This comparative analysis helps to visualize the relationship between GDP growth and inflation rates. The graph plots both indicators to examine how inflation correlates with economic growth, using dual y-axes to facilitate comparison.
-
-### Economic Analysis Specifics
-- **2024 Analysis**: The notebook specifically focuses on analyzing the economic indicators for the year 2024, providing predictions and trends based on the latest available data from FRED.
+### Personal Consumption Expenditures and Inflation Rate Comparison
+- **Graph Description**: This comparative analysis helps to visualize the relationship between Personal Consumption Expenditures growth and inflation rates. The graph plots both indicators to examine how inflation correlates with economic growth, using dual y-axes to facilitate comparison.
 
 ## Prerequisites
-To view and interact with the notebook, you will need Python and Jupyter Notebook installed on your system. The analysis uses libraries such as `matplotlib`, `pandas`, and `plotly`, which are essential for data manipulation and visualization.
+To view and interact with the notebook, you will need Python and Jupyter Notebook installed on your system. The analysis uses libraries such as `matplotlib`, `pandas`, `plotly`, and `numpy`, which are essential for data manipulation and visualization.
 
 ## Usage
-- **API Key Requirement**: To fetch data from the FRED API, an API key is necessary. You can obtain this key by registering on the FRED website and inserting it into the notebook where indicated.
+- **API Key Requirement**: To fetch data from the Federal Reserve Economic Data service, an API key is necessary. You can obtain this key by registering on the Federal Reserve Economic Data website and inserting it into the notebook where indicated.
 - **Running the Notebook**: Open `Economic-Analysis.ipynb` in Jupyter Notebook and execute the cells sequentially to activate the data fetching processes and view the results.
 
 ## Contributing
